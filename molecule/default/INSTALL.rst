@@ -1,12 +1,11 @@
-*********************************
-Vagrant driver installation guide
-*********************************
+*********************************************
+Amazon Web Services driver installation guide
+*********************************************
 
 Requirements
 ============
 
-* Vagrant
-* Virtualbox, Parallels, VMware Fusion, VMware Workstation or VMware Desktop
+* An AWS credentials rc file
 
 Install
 =======
@@ -20,4 +19,4 @@ widely recommended `'--user' flag`_ when invoking ``pip``.
 
 .. code-block:: bash
 
-    $ pip install 'molecule_vagrant'
+    $ pip install 'molecule-ec2'
