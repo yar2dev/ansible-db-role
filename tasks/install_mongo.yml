@@ -1,3 +1,4 @@
+---
 - name: Add APT key
   apt_key:
     url: https://www.mongodb.org/static/pgp/server-4.2.asc
